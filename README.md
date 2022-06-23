@@ -13,7 +13,7 @@ and a log file, in the output file you will have the ligands (num_modes) that yo
 
 your config.txt file should look like this, you should remove the "ligand" and "out" line that originally came from vina and 
 you should add the exhaustiveness and number of modes lines, in this example an exhaustivenes of 8 and only the first (best mode)
-is going to be at the out.pdbqt file
+is going to be at the out.pdbqt file.
 
 This script is thinked to be used in Ubuntu enviroment
 
@@ -34,7 +34,7 @@ num_modes = 1 <br />
 
 ### Second Script
 For the second script "script_multidocking.sh" Again you should modify the config.txt file in the "out" line you should change the name of the output to say
-"out=*_trol.pdbqt", is intended to use one protein and one ligand to perform multiple dockings repeteadly, so the line "ligand" remain the same 
+"out=*_trol.pdbqt", is intended to use one protein and one ligand to perform multiple dockings repeteadly, so the line "ligand" remain the same. 
 
 ### Third Script
 the las one "ScriptVinaLC.sh" is intended to send a job to a cluster, the rules chnge a little bit this is an example we use in our cluster
@@ -44,8 +44,7 @@ ligand must contain the word MODEL and ENDMDL at the begining and end of each pd
 must comply with the sintax characteristics in order to run, here we put and example of this files.
 
 You should create three txt files, one with ligands names, one with receptors (proteins names) and one with the geometry, box size for docking and center coordenates
-in this example 4 dockings will result from 2 ligands vs 2 proteins, the geoList must contain the center coordenates with 3 decimals and its size with 2 decimals in that order
-the first line of coordenates "geoList" must correspond with the the first protein  "protA" the second line with "protB" and so on. Remembeer these are only the lists wich VinaLC will read to perform the docking. Besides you should have the pdbqt files of proteins and the pdbqt files of ligands inside a directory called data.
+in this example 4 dockings will result from 2 ligands vs 2 proteins, the geoList must contain the center coordenates with 3 decimals and its size with 2 decimals in that order the first line of coordenates "geoList" must correspond with the the first protein  "protA" the second line with "protB" and so on. Remembeer these are only the lists wich VinaLC will read to perform the docking. Besides you should have the pdbqt files of proteins and the pdbqt files of ligands inside a directory called data.
 
 
 ### example of ligands, receptors and geometry files
