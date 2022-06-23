@@ -3,7 +3,7 @@ The second one is to perform docking of one protein vs one ligand many times obt
 The third one is to permorm dockings in a cluster using VinaLC it could be many ligands vs many proteins using multithreading <br>
 
 ### First Script
-This are a series of scripts to semi-automate the docking process using Autodock Vina, you should take in to account that some prerequisites must be completed 
+These are a series of scripts to semi-automate the docking process using Autodock Vina, you should take in to account that some prerequisites must be completed 
 before you could use this script, your protein must be clean, your ligands must be energy-minimized. Moreover the name of your ligands must have the
 structure "ligand_one.pdbqt", all of them must be inside the same directory, as well as the "config.txt" file from Vina, the script "script_screening.sh", 
 and the protein file "protein.pdbqt".
