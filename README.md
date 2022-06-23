@@ -48,10 +48,8 @@ You should create three txt files, one with ligands names, one with receptors (p
 in this example 4 dockings will result from 2 ligands vs 2 proteins, the geoList must contain the center coordenates with 3 decimals and its size with 2 decimals in that order
 the first line of coordenates "geoList" must correspond with the the first protein  "protA" the second line with "protB" and so on. Remembeer these are only the lists wich VinaLC will read to perform the docking. Besides you should have the pdbqt files of proteins and the pdbqt files of ligands inside a directory called data.
 
-¡ Happy Docking !
 
-
-### example of ligands file receptors and geometry 
+### example of ligands, receptors and geometry files
 <table class="default">
 
   <tr>
@@ -72,9 +70,17 @@ the first line of coordenates "geoList" must correspond with the the first prote
  
   </tr>
 </table>
+<br>
+<br>
+<br>
+<br>
+¡ Happy Docking !
+<br>
+<br>
+<br>
+<br>
 
-
-If this scripts are useful for you, please cite our work.
+If these scripts are useful for you, please cite our work.
 
 "Tenorio-Barajas AY, Nicolás-Álvarez DE, Reyes-Chaparro A, Mendoza-Barrera C, Magaña-Trejo B, Altuzar V. Comparison of performance of two virtual screening software on acetylcholinesterase protein molecular docking. In2021 18th International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE) 2021 Nov 10 (pp. 1-4). IEEE." <br >
 
