@@ -44,25 +44,29 @@ the files "ligands" and "proteins". Puedes encontrar informacion detallada en la
 ligand must contain the word MODEL and ENDMDL at the begining and end of each pdbqt file, also the receptor file, ligands list and geometry files 
 must comply with the sintax characteristics in order to run, here we put and example of this files.
 
-You should create tre txt files one with ligands, one with the receptors and one with the geometry, box for docking size and coordenates
+You should create three txt files, one with ligands names, one with receptors (proteins names) and one with the geometry, box size for docking and center coordenates
+in this example 4 dockings will result from 2 ligands vs 2 proteins, the geoList must contain the center coordenates with 3 decimals and its size with 2 decimals in that order
+the first line of coordenates "geoList" must correspond with the the first protein  "protA" the second line with "protB" and so on. Remembeer these are only the lists wich VinaLC will read to perform the docking. Besides you should have the pdbqt files of proteins and the pdbqt files of ligands inside a directory called data.
+
+¡ Happy Docking !
 
 
 ### example of ligands file receptors and geometry 
 <table class="default">
 
   <tr>
-    <th>Ligands</th>
-    <th>Receptors</th>
-    <th>Geometry</th>
+    <th>Ligands <br> ligList.txt</th>
+    <th>Receptors <br> recList.txt</th>
+    <th>Geometry <br> geoList.txt</th>
   </tr>
   <tr>
-    <td>./data/ligands1.pdbqt</td>
-    <td>1KIJ_protH.pdbqt</td>
+    <td>./data/ligand1.pdbqt</td>
+    <td>1KIJ_protA.pdbqt</td>
     <td>18.301 1.380 43.558 39.75 39.75 39.75</td>
   </tr>
   <tr>
-    <td>./data/ligands2.pdbqt</td>
-    <td>1KIJ_protH1.pdbqt</td>
+    <td>./data/ligand2.pdbqt</td>
+    <td>1KIJ_protB.pdbqt</td>
     <td>18.301 1.380 43.558 39.75 39.75 39.75</td>
   </tr>
  
@@ -70,7 +74,11 @@ You should create tre txt files one with ligands, one with the receptors and one
 </table>
 
 
+If this scripts are useful for you, please cite our work.
 
+"Tenorio-Barajas AY, Nicolás-Álvarez DE, Reyes-Chaparro A, Mendoza-Barrera C, Magaña-Trejo B, Altuzar V. Comparison of performance of two virtual screening software on acetylcholinesterase protein molecular docking. In2021 18th International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE) 2021 Nov 10 (pp. 1-4). IEEE." <br >
+
+"Hernández-Santoyo, A., Tenorio-Barajas, A. Y., Altuzar, V., Vivanco-Cid, H., & Mendoza-Barrera, C. (2013). Protein-protein and protein-ligand docking. Protein engineering-technology and application, 63-81."
 
 
 
