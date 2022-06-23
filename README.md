@@ -15,15 +15,15 @@ This script is thinked to be used in Ubuntu enviroment
 
 ------------example of config.txt file--------------------
 
-# receptor = 5JMT.pdbqt
-# center_x = -24.788
-# center_y = 17.865
-# center_z = -21.964
-# size_x = 20.0
-# size_y = 22.0
-# size_z = 20.0
-# exhaustiveness = 8
-# num_modes = 1
+ receptor = 5JMT.pdbqt
+ center_x = -24.788
+ center_y = 17.865
+ center_z = -21.964
+ size_x = 20.0
+ size_y = 22.0
+ size_z = 20.0
+ exhaustiveness = 8
+ num_modes = 1
 
 ------------------------------------------------------------
 
