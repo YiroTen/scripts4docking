@@ -1,5 +1,3 @@
-# scripts
-
 #! /bin/bash
 
 for f in ligand_*.pdbqt; do
