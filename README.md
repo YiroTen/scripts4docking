@@ -68,12 +68,11 @@ in this example 4 dockings will result from 2 ligands vs 2 proteins, the geoList
  
   </tr>
 </table>
-<br>
-<br>
+
 <br>
 <br>
 ¡ Happy Docking !
-<br>
+
 <br>
 <br>
 <br>
