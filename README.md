@@ -20,20 +20,21 @@ This script is thinked to be used in Ubuntu enviroment
 
 ### example of config.txt file
 ----------------------------------------------------------
-receptor = 5JMT.pdbqt 
-center_x = -24.788 
-center_y = 17.865
-center_z = -21.964
-size_x = 20.0
-size_y = 22.0
-size_z = 20.0
-exhaustiveness = 8
-num_modes = 1
+
+receptor = 5JMT.pdbqt <br /> 
+center_x = -24.788 <br />
+center_y = 17.865 <br />
+center_z = -21.964 <br />
+size_x = 20.0 <br />
+size_y = 22.0 <br />
+size_z = 20.0 <br />
+exhaustiveness = 8 <br />
+num_modes = 1 <br />
 
 ------------------------------------------------------------
 
 ### Second Script
-For the second script "script_multidockin.sh" Again you should modify the config.txt file in the "out" line you should change the name of the output to say
+For the second script "script_multidocking.sh" Again you should modify the config.txt file in the "out" line you should change the name of the output to say
 "out=*_trol.pdbqt", is intended to use one protein and one ligand to perform multiple dockings repeteadly, so the line "ligand" remain the same 
 
 ### Third Script
@@ -42,6 +43,41 @@ using one node of 12 cores but you can change the options to uses as many as yo 
 the files "ligands" and "proteins". Puedes encontrar informacion detallada en la pagina de los creadores de esta version de vina https://plsuser.llnl.gov/bbs/vinalc/tutorial.html. The most important is to put the ligands inside a directory called data and each individual
 ligand must contain the word MODEL and ENDMDL at the begining and end of each pdbqt file, also the receptor file, ligands list and geometry files 
 must comply with the sintax characteristics in order to run, here we put and example of this files.
+
+You should create tre txt files one with ligands, one with the receptors and one with the geometry, box for docking size and coordenates
+
+
+### example of ligands file receptors and geometry 
+<table class="default">
+
+  <tr>
+    <th>Ligands</th>
+    <th>Receptors</th>
+    <th>Geometry</th>
+  </tr>
+  <tr>
+    <td>./data/ligands1.pdbqt</td>
+    <td>1KIJ_protH.pdbqt</td>
+    <td>18.301 1.380 43.558 39.75 39.75 39.75</td>
+  </tr>
+  <tr>
+    <td>./data/ligands2.pdbqt</td>
+    <td>1KIJ_protH1.pdbqt</td>
+    <td>18.301 1.380 43.558 39.75 39.75 39.75</td>
+  </tr>
+ 
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
 
 
 
