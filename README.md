@@ -1,6 +1,6 @@
 The first script is to automate many dockings vs the same protein <br>
 The second one is to perform docking of one protein vs one ligand many times obtain statistics from dockings  <br>
-The third one is to permorm dockings in a cluster using VinaLC it could be many ligands vs many proteins using multithreading <br>
+The third one is to perform dockings in a cluster using VinaLC it could be many ligands vs many proteins using multithreading <br>
 
 ### First Script
 These are a series of scripts to semi-automate the docking process using Autodock Vina, you should take in to account that some prerequisites must be completed 
