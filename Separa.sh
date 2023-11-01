@@ -19,7 +19,11 @@ L=$(awk 'NR==1' num.txt)
 # asigna numeros a los archivos de salida con -d 0,1,2...  -a asigna 3 caracteres para los numeros
 # en vez de 1 pone 001 etc.
 
-split -l $L -d $archivo out_ --additional-suffix=.pdb #-a 3
+split -l $L -d $archivo "$archivo"_ #--additional-suffix=.pdb #-a 3
+rm line.txt num.txt
+#mkdir Dock
+mv -v "$archivo"_00 -t Dock
+mv -v "$archivo"_01 -t Dock
 
 
 
